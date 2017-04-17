@@ -20,18 +20,16 @@ def hide
 end
 
 
-
-
-
+def index
+    @jobs = Job.where(:is_hidden => false).order("created_at DESC")
+   end
 
 
   def show
     @job = Job.find(params[:id])
   end
 
-  def index
-    @jobs = Job.all
-  end
+  
 
   def new
     @job = Job.new

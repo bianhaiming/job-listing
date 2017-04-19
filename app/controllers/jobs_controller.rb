@@ -22,6 +22,7 @@ class JobsController < ApplicationController
             else
               Job.published.order('created_at DESC')
             end
+
   end
 
 

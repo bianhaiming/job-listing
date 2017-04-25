@@ -24,7 +24,7 @@
  .navbar-default {
      background-color: #212121;
      border-color: #212121;
-     margin-bottom: 0;
+    //  margin-bottom: 0;
      border-radius: 0;
  }
 
@@ -73,6 +73,7 @@
      background-repeat: no-repeat;
      background-size: cover;
      margin-bottom: 50px;
+     margin-top: -20px;
 
 
      .box-inner {
@@ -243,7 +244,7 @@
 }
 
 
- /****** admin/jobs/index.html_table_style ******/
+ //****** admin/jobs/index.html_table_style ******/
 
  .custab{
    border: 1px solid #ccc;
@@ -259,3 +260,11 @@
    box-shadow: 3px 3px 0px transparent;
    transition: 0.5s;
  }
+
+
+//*************common****************
+
+.col-centered {
+ float: none;
+ margin: 0 auto;
+}
